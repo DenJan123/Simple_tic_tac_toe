@@ -47,6 +47,7 @@ public class Main {
                 validInput = an.checkUserGridInputFlow(inpCoord, grid);
                 if (!validInput) {
                     continue;
+
                 }
                 grid = game.changeGrid(grid, inpCoord, player);
                 pr.printGame(grid);
